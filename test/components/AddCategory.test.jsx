@@ -27,7 +27,7 @@ describe('Prueba en <AddCategory/>', () => {
     expect(onNewValue).toHaveBeenCalledWith(inputValue)
 
   })
-  test('No debería llamar si el onNewValue si el input está vacío', () => { 
+  test('No debería llamar  onNewValue si el input está vacío', () => { 
     const onNewValue = jest.fn()
     render(<AddCategory onNewValue={onNewValue}/>)
 

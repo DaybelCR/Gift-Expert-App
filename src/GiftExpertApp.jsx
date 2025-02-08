@@ -8,7 +8,7 @@ export const GiftExpertApp = () => {
     if(categories.includes(newCategory)) return
     setCategories([newCategory, ...categories])
   }
-
+  
   return (
     <>
       <h1>GiftExpertApp</h1>
@@ -19,3 +19,4 @@ export const GiftExpertApp = () => {
     </>
   )
 }
+
